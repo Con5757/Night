@@ -1,0 +1,43 @@
+{
+  "name": "night",
+  "displayName": "Night",
+  "description": "vscode extension for night",
+  "version": "0.0.1",
+  "icon": "./icon/icon.svg",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "n",
+        "aliases": [
+          "Night Language",
+          "n"
+        ],
+        "extensions": [
+          ".night",
+          ".n",
+          ".nt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "st",
+        "scopeName": "source.st",
+        "path": "./syntaxes/st.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "st",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
