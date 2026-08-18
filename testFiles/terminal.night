@@ -7,7 +7,7 @@ using terminal
 $func main() {
     #ans
     ans = add(1, 4) ; need to update extension to be able to detect 1 
-              ; as a number here and not a boolean
+                    ; as a number here and not a boolean
     if ans >= 11 {
         terminal.out("big num")
     } elif ans <= 9 {
