@@ -1,0 +1,18 @@
+using boolean
+using terminal
+
+$func main() {
+    #keywordIsRunning = true
+    #numIsRunning = 1
+
+    during numIsRunning == 0 || keywordIsRunning == true {
+        #num = nil
+        ; #num on its own is the same as above
+        
+        num = terminal.in(#).nl ; change the scope to anything attached to terminal so this works
+        if num < 100 {
+            numIsRunning = 0
+            keywordIsRunning = false
+        } 
+    }
+}

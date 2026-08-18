@@ -1,3 +1,0 @@
-use terminal
-
-terminal.out("hello world!")
