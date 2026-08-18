@@ -9,7 +9,7 @@ $func main() {
         #num = nil
         ; #num on its own is the same as above
         
-        num = terminal.in(#).nl ; change the scope to anything attached to terminal so this works
+        num = terminal.in(#).nl ; change the scope to anything attached to terminal so this highlights
         if num < 100 {
             numIsRunning = 0
             keywordIsRunning = false
