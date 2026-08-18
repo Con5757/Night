@@ -74,7 +74,7 @@ Strings `@` are used to hold an array of characters which represent sentances or
 
 `@str = "hi"`
 
-```
+```n
 @str = "hello"
 ; compiler would characterize as: 'h', 'e', 'l', 'l', 'o'
 ```
