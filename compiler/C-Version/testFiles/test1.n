@@ -1,0 +1,6 @@
+using terminal
+
+$func main() {
+    terminal.out("hello world!")
+    kill
+}

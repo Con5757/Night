@@ -1,0 +1,64 @@
+using terminal
+
+$func main() {
+    #ans
+    #firstNum = terminal.in(#)
+    #secondNum = terminal.in(#)
+
+    terminal.out("1. ADD").nl
+    terminal.out("2. SUBTRACT").nl
+    terminal.out("3. MULTIPLY").nl
+    terminal.out("4. DIVIDE").nl
+    ans = terminal.in(#)
+
+    #numAns
+    #wordAns
+    switch (ans) {
+        arg #1: ; since 1 = true even without 'using boolean', itll still calculate fine most of the time but to be sure u can declare it a number using '#' or '%'
+            numAns = add(firstNum, secondNum)
+            end
+        arg 2:
+            numAns = sub(firstNum, secondNum)
+            end
+        arg 3: 
+            numAns = mul(firstNum, secondNum)
+            end
+        arg 4:
+            numAns = div(firstNum, secondNum)
+            end
+        incase:
+            terminal.out("invalid")
+            end
+    }
+    wordAnsCalc(numAns)
+
+    terminal.out(numAns)
+    terminal.out(wordAns)
+    kill
+}
+
+@func wordAnsCalc(numAns) {
+    if numAns > 100 {
+        send wordAns = "BIG"
+    } elif numAns > 50 {
+        send wordAns = "MEDIUM"
+    } else {
+        send wordAns = "SMALL"
+    }
+}
+
+#func add(#num1, #num2) {
+    send num1 + num2
+}
+
+#func sub(#num1, #num2) {
+    send num1 - num2
+}
+
+#func mul(#num1, #num2) {
+    send num1 * num2
+}
+
+#func div(#num1, #num2) {
+    send num1 / num2
+}
