@@ -9,8 +9,11 @@ int main() {
     printf("file: ");
     scanf("%s", fileName);
 
+//--
+    Token token;
+
     char *script = readFile(fileName);
-    characterizeScript(script);
+    Token *tokens = lex(script);
 
     return 0;
 }

@@ -1,0 +1,85 @@
+; list file
+()
+[]
+{}
+""
+''
+
+.
+
++
+-
+*
+/
+** ; add extension
+// ; add extension
+> ; add extension
+< ; add extension
+>= ; add extension
+<= ; add extension
+= ; add extension
+!= ; add extension
+
+&& ; add extension
+|| ; add extension
+^ ; add extension
+!& ; add extension
+!| ; add extension
+!^ ; add extension
+
+1
+0
+
+true
+false
+
+->
+->>
+->>>
+<-
+<<-
+<<<-
+
+during
+repeat
+
+,
+
+variable
+
+20
+
+using
+boolean
+terminal
+file ; add extension
+CCP ; add extension
+
+func
+main
+send ; add extension
+kill ; add extension
+
+switch
+arg
+end ; add extension
+
+attempt ; add extension
+incase ; add extension
+
+if
+elif
+else
+
+#
+%
+@
+$
+?
+
+.nl
+.in()
+.out()
+
+.read() ; add extension
+.write() ; add extension
